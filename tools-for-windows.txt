@@ -1,0 +1,16 @@
+Installation steps for Windows
+
+ConEmu 
+1. Download https://conemu.github.io/
+2. Install
+3. Run and choose shell, eg. Git Bash
+
+SdkMan using 3rd option with Git Bash (https://sdkman.io/install)
+1. Download files 
+https://sourceforge.net/projects/gnuwin32/files/zip/3.0/zip-3.0-bin.zip
+https://sourceforge.net/projects/gnuwin32/files/bzip2/1.0.5/bzip2-1.0.5-bin.zip
+2. Extract files zip.exe, bzip2.dll to your "mingw64" bin folder (eg. C:\Program Files\Git\mingw64\bin)
+3. Open bash terminal and run the following commands: 
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+4. Check the installation with the command: sdk version
